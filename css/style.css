@@ -9,11 +9,6 @@ body {
     font-size: 16px
 } 
 
-body {
-    background: radial-gradient(#525252, #131313);
-    height: 100vh;
-}
-
 section {
     width: 60%;
     padding: 0 20%;
@@ -29,7 +24,8 @@ header {
     padding: 0 20%;
     padding-top: 30px;
     text-transform: uppercase;
-    color: #fefefe 
+    color: #fefefe;
+    position: fixed; 
 }
 
 nav ul {
@@ -84,7 +80,8 @@ nav ul li a {
 .hero {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    
+    background: radial-gradient(#525252, #131313);
+    height: 100vh; 
 }
 
 .xbox-image {
@@ -106,7 +103,6 @@ nav ul li a {
     color: #fefefe;
     text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
     font-family: Saira, sans-serif;
-    
 }
 
 .hero-text h2 {
