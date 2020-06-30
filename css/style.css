@@ -6,7 +6,8 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-size: 16px
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
 } 
 
 section {
@@ -130,3 +131,38 @@ nav ul li a {
 }
 
 /* Features */
+.features {
+    background: #323232;
+    height: 100vh;
+}
+
+.features-row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5%;
+    padding-top: 40px;
+}
+
+.card {
+    width: 100%;
+    background: #52A96F;
+    text-align: center;
+    color: #f4f4f4;
+    border-radius: 10px
+}
+
+.card img {
+    width: 140px;
+    height: 140px;
+}
+
+.card h2 {
+    font-family: Saira, sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 1.2em;
+    letter-spacing: 1px
+}
+
+
+
