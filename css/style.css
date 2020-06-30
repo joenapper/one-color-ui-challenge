@@ -164,5 +164,10 @@ nav ul li a {
     letter-spacing: 1px
 }
 
+.wave {
+    width: 100%;
+    transform: translateY(30%)
+}
+
 
 
