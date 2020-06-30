@@ -164,9 +164,53 @@ nav ul li a {
     letter-spacing: 1px
 }
 
+/* Form */
+.form {   
+    text-align: center;
+    padding-top: 50px;
+}
+
+.form h2 {
+    font-family: Saira, sans-serif;
+    text-transform: uppercase;
+    border-top: 1px solid #52A96F;
+    text-decoration: underline;
+    font-size: 2em;
+    letter-spacing: 2px;
+    color: #f3f3f3;
+    padding-top: 20px
+}
+
+form input {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #52A96F;
+    color: #f3f3f3;
+    font-size: 1.25em;
+    margin-bottom: 1em;
+    height: 45px;
+    font-family: Saira, sans-serif;
+}
+
+form .submit {
+    background: #52A96F;
+    border-color:transparent;
+    font-size: 1.4em;
+    border-radius: 5px;
+    padding: 0 2em;
+    text-transform: uppercase 
+}
+
+form .submit:hover {
+    opacity: 0.5;
+    cursor: pointer;
+} 
+
+/* Footer */
 .wave {
     width: 100%;
-    transform: translateY(30%)
+    /* transform: translateY(30%) */
 }
 
 
