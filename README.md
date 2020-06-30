@@ -1,5 +1,7 @@
 # One Color UI Challenge
 
+<h2 align="center"><img src="readme-assets/banner.png"></h2>
+
 Designing and developing a basic one color primary website.
 - Challenge color of #52A96F(Green)
 
