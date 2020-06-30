@@ -22,7 +22,9 @@ header {
     align-items: center;
     width: 60%;
     padding: 0 20%;
-    text-transform: uppercase 
+    padding-top: 30px;
+    text-transform: uppercase;
+    color: #fefefe 
 }
 
 nav ul {
@@ -36,11 +38,21 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: #fefefe;
     font-family: Saira
 }
 
-.logo {
-    font-family: Krona One, sans-serif
+.preorder a {
+    border: 2px solid#52A96F;
+    padding: 5px
 }
+
+.logo {
+    font-family: Krona One, sans-serif;
+    width: 85px;
+    padding: 0px 10px;
+    border-radius: 50%;
+    background: #52A96F
+}
+
 
