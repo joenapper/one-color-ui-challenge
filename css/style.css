@@ -39,12 +39,32 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fefefe;
-    font-family: Saira
+    font-family: Saira;
+    cursor: pointer
+}
+
+.listitem::after {
+    content:'';
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #52A96F;
+    transition: width .4s
+}
+
+.listitem:hover::after {
+    width: 100%;
+    transition: .4s;
 }
 
 .preorder a {
     border: 2px solid#52A96F;
     padding: 5px
+}
+
+.preorder a:hover {
+    background: #52A96F;
+    transition: .2s ease-in-out
 }
 
 .logo {
