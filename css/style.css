@@ -86,4 +86,8 @@ nav ul li a {
     grid-template-columns: repeat(2, 50%);
 }
 
+.xbox-image {
+    height: 700px
+}
+
 
