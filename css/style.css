@@ -11,11 +11,16 @@ body {
 
 body {
     background: radial-gradient(#525252, #131313);
-    
-    height: 10000px;
+    height: 100vh;
 }
 
-/* General CSS */
+section {
+    width: 60%;
+    padding: 0 20%;
+    align-items: center 
+}
+
+/* Header / Nav */
 header {
     display: flex;
     justify-content: space-between;
@@ -73,6 +78,12 @@ nav ul li a {
     padding: 0px 10px;
     border-radius: 50%;
     background: #52A96F
+}
+
+/* Hero */
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
 }
 
 
