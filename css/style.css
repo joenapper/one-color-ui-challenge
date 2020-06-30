@@ -141,7 +141,7 @@ nav ul li a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 5%;
-    padding-top: 40px;
+    padding-top: 90px;
 }
 
 .card {
@@ -168,7 +168,7 @@ nav ul li a {
 /* Form */
 .form {   
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 .form h2 {
@@ -189,7 +189,7 @@ form input {
     border-bottom: 1px solid #52A96F;
     color: #f3f3f3;
     font-size: 1.25em;
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
     height: 45px;
     font-family: Saira, sans-serif;
 }
@@ -229,6 +229,3 @@ footer span {
     text-transform: uppercase;
     font-family: Saira, sans-serif
 }
-
-
-
