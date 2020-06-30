@@ -90,4 +90,32 @@ nav ul li a {
     height: 700px
 }
 
+.hero-text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fefefe;
+    text-shadow: 2px 3px 5px rgba(0,0,0,0.5);
+    font-family: Saira, sans-serif
+}
 
+.hero-text h2 {
+    font-family: Krona One, sans-serif;
+    font-size: 5em;
+    margin: 0
+}
+
+.hero-text h3 {
+    font-size: 3em;
+    margin: 0
+}
+
+.hero-text h4:nth-child(1){
+    opacity: 0.5;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+.hero-text h4:nth-child(4){
+    opacity: 0.8;
+    letter-spacing: 5px
+}
